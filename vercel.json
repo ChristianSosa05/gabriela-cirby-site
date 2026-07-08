@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gabriela Cirby | 55+ Community Real Estate Specialist | California</title>
+<meta name="description" content="Gabriela Cirby is a California real estate agent specializing in 55+ active adult communities. Expert guidance for retirement home buyers across Southern California, the Coachella Valley, Orange County, and beyond."/>
+<meta name="keywords" content="55+ communities California, active adult communities Southern California, retirement homes California, 55 plus real estate agent, Gabriela Cirby, 55+ specialist California, active adult real estate, senior communities California"/>
+<meta name="author" content="Gabriela Cirby"/>
+<meta property="og:title" content="Gabriela Cirby | 55+ Community Specialist | California"/>
+<meta property="og:description" content="Find your perfect 55+ active adult community in California with expert guidance from Gabriela Cirby, a trusted real estate specialist since 2011."/>
+<meta property="og:type" content="website"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://gabrielacirby.com/"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --sky:#6BA3C8;
+  --sky-light:#A8CCE5;
+  --sky-dark:#3E6E96;
+  --gold:#C4973F;
+  --gold-light:#E8D5AA;
+  --brown:#5C3D1E;
+  --parchment:#F6F0E6;
+  --parchment-dark:#EDE3D0;
+  --white:#FFFFFF;
+  --ink:#2C2118;
+  --muted:#7A6A52;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Lato',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--parchment);color:var(--ink);font-weight:300;line-height:1.7;overflow-x:hidden}
+
+/* ── PAGE SYSTEM ── */
+.page{display:none;min-height:100vh}
+.page.active{display:block}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  background:rgba(246,240,230,0.96);
+  backdrop-filter:blur(10px);
+  border-bottom:2px solid var(--gold-light);
+  padding:0 48px;
+  height:68px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.nav-brand{
+  display:flex;align-items:center;gap:12px;
+  text-decoration:none;
+  cursor:pointer;
+}
+.nav-monogram{
+  width:42px;height:42px;
+  background:var(--sky);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);
+  font-size:1.1rem;font-weight:700;
+  color:var(--white);
+  letter-spacing:-0.02em;
+  flex-shrink:0;
+}
+.nav-name{
+  font-family:var(--font-display);
+  font-size:1.05rem;font-weight:600;
+  color:var(--brown);
+  line-height:1.1;
+}
+.nav-name small{
+  display:block;
+  font-family:var(--font-body);
+  font-size:0.62rem;font-weight:400;
+  letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--muted);
+}
+.nav-links{display:flex;align-items:center;gap:8px;list-style:none}
+.nav-links a,.nav-links button{
+  font-size:0.78rem;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--brown);
+  background:none;border:none;cursor:pointer;
+  padding:8px 14px;
+  text-decoration:none;
+  transition:color 0.2s;
+  font-family:var(--font-body);
+}
+.nav-links a:hover,.nav-links button:hover{color:var(--sky-dark)}
+.nav-links .nav-cta{
+  background:var(--sky);color:var(--white);
+  padding:9px 20px;
+  transition:background 0.2s;
+}
+.nav-links .nav-cta:hover{background:var(--sky-dark)}
+
+/* ── HERO ── */
+.hero{
+  position:relative;min-height:100vh;
+  display:flex;align-items:center;
+  overflow:hidden;padding-top:68px;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(to right, rgba(92,61,30,0.72) 0%, rgba(92,61,30,0.35) 55%, rgba(107,163,200,0.15) 100%),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80') center/cover no-repeat;
+}
+.hero-content{
+  position:relative;z-index:2;
+  max-width:640px;padding:80px 48px;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:0.7rem;font-weight:700;
+  letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--gold-light);margin-bottom:22px;
+}
+.hero-eyebrow span{
+  display:inline-block;width:32px;height:1px;background:var(--gold);
+}
+.hero-h1{
+  font-family:var(--font-display);
+  font-size:clamp(2.4rem,5vw,4rem);
+  font-weight:700;line-height:1.08;
+  color:var(--white);margin-bottom:22px;
+}
+.hero-h1 em{font-style:italic;color:var(--sky-light)}
+.hero-sub{
+  font-size:1rem;color:rgba(255,255,255,0.85);
+  max-width:480px;margin-bottom:40px;line-height:1.8;
+}
+.btn-gold{
+  display:inline-block;padding:14px 36px;
+  background:var(--gold);color:var(--white);
+  font-size:0.78rem;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  text-decoration:none;border:none;cursor:pointer;
+  font-family:var(--font-body);
+  transition:background 0.2s,transform 0.15s;
+}
+.btn-gold:hover{background:#a67c30;transform:translateY(-1px)}
+.btn-sky{
+  display:inline-block;padding:14px 36px;
+  background:var(--sky);color:var(--white);
+  font-size:0.78rem;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  text-decoration:none;border:none;cursor:pointer;
+  font-family:var(--font-body);
+  transition:background 0.2s;
+}
+.btn-sky:hover{background:var(--sky-dark)}
+.btn-outline-white{
+  display:inline-block;padding:13px 34px;
+  border:2px solid rgba(255,255,255,0.6);
+  color:var(--white);
+  font-size:0.78rem;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  text-decoration:none;cursor:pointer;
+  background:none;font-family:var(--font-body);
+  transition:border-color 0.2s,background 0.2s;
+  margin-left:14px;
+}
+.btn-outline-white:hover{border-color:var(--white);background:rgba(255,255,255,0.1)}
+.hero-scroll-hint{
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+  color:rgba(255,255,255,0.55);
+  font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+}
+.scroll-arrow{
+  width:1px;height:40px;background:rgba(255,255,255,0.3);
+  position:relative;
+  animation:scrollpulse 2s ease-in-out infinite;
+}
+@keyframes scrollpulse{0%,100%{opacity:0.3}50%{opacity:1}}
+
+/* ── DIAGONAL BAND ── */
+.diagonal-band{
+  position:relative;background:var(--sky);
+  padding:64px 80px;color:var(--white);
+  clip-path:polygon(0 0,100% 8%,100% 100%,0 92%);
+  margin:-2px 0;
+}
+.band-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  gap:48px;padding:20px 0;
+}
+.band-stat{text-align:center}
+.band-num{
+  font-family:var(--font-display);
+  font-size:3rem;font-weight:700;
+  color:var(--white);line-height:1;
+  margin-bottom:6px;
+}
+.band-label{
+  font-size:0.72rem;letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,0.75);
+}
+
+/* ── WHAT IS 55+ ── */
+.what-section{
+  background:var(--parchment);
+  padding:100px 80px;
+}
+.section-header{margin-bottom:56px}
+.section-eyebrow{
+  font-size:0.68rem;font-weight:700;
+  letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:12px;
+}
+.section-title{
+  font-family:var(--font-display);
+  font-size:clamp(1.8rem,3.5vw,2.8rem);
+  font-weight:600;line-height:1.15;color:var(--brown);
+}
+.section-title em{font-style:italic;color:var(--sky-dark)}
+.section-rule{
+  width:56px;height:3px;
+  background:var(--gold);margin-top:18px;
+}
+.what-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:2px;max-width:1100px;
+}
+.what-card{
+  background:var(--white);padding:44px 40px;
+  border-left:4px solid transparent;
+  transition:border-color 0.2s;
+}
+.what-card:hover{border-left-color:var(--sky)}
+.what-card-icon{
+  font-size:2rem;margin-bottom:18px;
+}
+.what-card h3{
+  font-family:var(--font-display);
+  font-size:1.2rem;font-weight:600;
+  color:var(--brown);margin-bottom:10px;
+}
+.what-card p{font-size:0.88rem;color:var(--muted);line-height:1.8}
+.what-intro-col{
+  display:grid;grid-template-columns:1.1fr 0.9fr;
+  gap:64px;align-items:start;max-width:1100px;margin-bottom:56px;
+}
+.what-intro-col p{font-size:0.95rem;color:var(--muted);line-height:1.85;margin-bottom:16px}
+.what-photo{
+  background:var(--sky-light);
+  aspect-ratio:4/3;
+  background:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=80') center/cover;
+  position:relative;
+}
+.what-photo-caption{
+  position:absolute;bottom:0;left:0;right:0;
+  background:rgba(92,61,30,0.75);
+  color:rgba(255,255,255,0.85);
+  font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;
+  padding:10px 16px;
+}
+
+/* ── CONTACT STRIP ── */
+.contact-strip{
+  background:var(--brown);
+  padding:80px 80px;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:80px;align-items:center;
+  max-width:100%;
+}
+.strip-text h2{
+  font-family:var(--font-display);
+  font-size:2rem;font-weight:700;
+  color:var(--white);margin-bottom:14px;
+}
+.strip-text p{color:rgba(255,255,255,0.75);font-size:0.92rem;line-height:1.8}
+.contact-form-mini{display:flex;flex-direction:column;gap:14px}
+.form-row-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-field input,.form-field select,.form-field textarea{
+  width:100%;padding:12px 16px;
+  background:rgba(255,255,255,0.1);
+  border:1px solid rgba(255,255,255,0.25);
+  color:var(--white);
+  font-family:var(--font-body);font-size:0.88rem;font-weight:300;
+  outline:none;
+  transition:border-color 0.2s;
+}
+.form-field input::placeholder,.form-field textarea::placeholder{color:rgba(255,255,255,0.45)}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--gold)}
+.form-field select option{background:var(--brown);color:var(--white)}
+.form-field textarea{resize:vertical;min-height:90px}
+.form-success{
+  display:none;padding:24px;
+  background:rgba(196,151,63,0.2);
+  border:1px solid var(--gold);
+  color:var(--white);
+  font-family:var(--font-display);font-style:italic;font-size:1.1rem;
+  text-align:center;
+}
+.form-success.show{display:block}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--ink);
+  padding:40px 80px;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:16px;
+}
+.footer-brand{
+  font-family:var(--font-display);
+  font-size:1rem;font-weight:600;font-style:italic;
+  color:var(--gold-light);
+}
+.footer-links{display:flex;gap:24px;flex-wrap:wrap}
+.footer-links button{
+  background:none;border:none;cursor:pointer;
+  font-family:var(--font-body);font-size:0.72rem;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:rgba(255,255,255,0.5);
+  transition:color 0.2s;
+}
+.footer-links button:hover{color:var(--gold)}
+footer small{font-size:0.68rem;color:rgba(255,255,255,0.3);letter-spacing:0.04em}
+
+/* ── WHY PAGE ── */
+.page-hero-sub{
+  height:55vh;min-height:360px;
+  position:relative;display:flex;align-items:flex-end;
+  padding-top:68px;
+}
+.page-hero-sub-bg{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(to top,rgba(92,61,30,0.85) 0%,rgba(92,61,30,0.2) 100%),
+    url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=80') center/cover;
+}
+.page-hero-sub-content{
+  position:relative;z-index:2;
+  padding:48px 80px;
+}
+.page-hero-sub-content h1{
+  font-family:var(--font-display);
+  font-size:clamp(2rem,4vw,3.2rem);
+  font-weight:700;color:var(--white);
+  margin-bottom:10px;
+}
+.page-hero-sub-content p{
+  color:rgba(255,255,255,0.78);
+  font-size:1rem;max-width:560px;
+}
+.why-section{padding:100px 80px;background:var(--parchment)}
+.why-reasons{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:2px;margin-top:0;
+}
+.why-card{
+  background:var(--white);padding:48px 44px;
+  position:relative;overflow:hidden;
+}
+.why-card::before{
+  content:'';position:absolute;top:0;left:0;
+  width:4px;height:100%;
+  background:var(--gold);
+}
+.why-number{
+  font-family:var(--font-display);
+  font-size:4rem;font-weight:700;
+  color:var(--parchment-dark);
+  position:absolute;top:12px;right:24px;
+  line-height:1;
+  user-select:none;
+}
+.why-card h3{
+  font-family:var(--font-display);
+  font-size:1.25rem;font-weight:600;
+  color:var(--brown);margin-bottom:12px;
+}
+.why-card p{font-size:0.88rem;color:var(--muted);line-height:1.85}
+.why-cta-block{
+  background:var(--sky);padding:72px 80px;
+  text-align:center;
+}
+.why-cta-block h2{
+  font-family:var(--font-display);
+  font-size:2.2rem;font-weight:700;font-style:italic;
+  color:var(--white);margin-bottom:14px;
+}
+.why-cta-block p{color:rgba(255,255,255,0.8);margin-bottom:32px;font-size:0.95rem}
+
+/* ── BLOG PAGE ── */
+.blog-section{padding:60px 80px 100px;background:var(--parchment)}
+.blog-top{
+  display:flex;justify-content:space-between;
+  align-items:flex-end;margin-bottom:48px;
+}
+.blog-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+.blog-card{
+  background:var(--white);
+  display:flex;flex-direction:column;
+  cursor:pointer;
+  transition:transform 0.2s;
+}
+.blog-card:hover{transform:translateY(-4px)}
+.blog-thumb{
+  height:200px;
+  background:var(--sky-light) center/cover no-repeat;
+  position:relative;
+}
+.blog-tag{
+  position:absolute;bottom:12px;left:12px;
+  background:var(--gold);
+  color:var(--white);
+  font-size:0.62rem;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  padding:4px 10px;
+}
+.blog-body{padding:28px 28px 24px;flex:1;display:flex;flex-direction:column}
+.blog-date{
+  font-size:0.68rem;color:var(--muted);
+  letter-spacing:0.08em;text-transform:uppercase;
+  margin-bottom:10px;
+}
+.blog-card h3{
+  font-family:var(--font-display);
+  font-size:1.1rem;font-weight:600;
+  color:var(--brown);line-height:1.35;
+  margin-bottom:10px;flex:1;
+}
+.blog-excerpt{font-size:0.83rem;color:var(--muted);line-height:1.7;margin-bottom:16px}
+.blog-read{
+  font-size:0.72rem;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--sky-dark);
+  display:flex;align-items:center;gap:6px;
+  cursor:pointer;background:none;border:none;
+  font-family:var(--font-body);padding:0;
+  transition:gap 0.2s;
+}
+.blog-read:hover{gap:10px}
+.blog-empty{
+  grid-column:1/-1;text-align:center;
+  padding:80px 40px;color:var(--muted);
+}
+.blog-empty p{font-size:0.95rem;margin-bottom:24px}
+
+/* ── BLOG UPLOAD MODAL ── */
+.modal-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(44,33,24,0.7);
+  z-index:1000;
+  align-items:center;justify-content:center;
+}
+.modal-overlay.open{display:flex}
+.modal-box{
+  background:var(--white);
+  width:min(680px,95vw);
+  max-height:90vh;overflow-y:auto;
+  padding:48px;position:relative;
+}
+.modal-close{
+  position:absolute;top:16px;right:20px;
+  background:none;border:none;cursor:pointer;
+  font-size:1.4rem;color:var(--muted);
+  transition:color 0.2s;
+}
+.modal-close:hover{color:var(--brown)}
+.modal-title{
+  font-family:var(--font-display);
+  font-size:1.6rem;font-weight:600;
+  color:var(--brown);margin-bottom:28px;
+}
+.modal-field{margin-bottom:18px;display:flex;flex-direction:column;gap:6px}
+.modal-field label{
+  font-size:0.72rem;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--ink);
+}
+.modal-field input,.modal-field select,.modal-field textarea{
+  padding:11px 14px;
+  border:1px solid var(--parchment-dark);
+  background:var(--parchment);
+  font-family:var(--font-body);font-size:0.9rem;font-weight:300;
+  color:var(--ink);outline:none;
+  transition:border-color 0.2s;
+}
+.modal-field input:focus,.modal-field select:focus,.modal-field textarea:focus{
+  border-color:var(--sky);background:var(--white);
+}
+.modal-field textarea{min-height:200px;resize:vertical}
+.modal-row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+
+/* ── BLOG READ VIEW ── */
+.blog-read-view{
+  display:none;padding:100px 80px 100px;
+  background:var(--parchment);min-height:100vh;
+}
+.blog-read-view.show{display:block}
+.blog-read-back{
+  background:none;border:none;cursor:pointer;
+  font-family:var(--font-body);
+  font-size:0.75rem;font-weight:700;
+  letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--sky-dark);display:flex;align-items:center;gap:8px;
+  margin-bottom:40px;padding:0;
+  transition:gap 0.2s;
+}
+.blog-read-back:hover{gap:12px}
+.blog-read-hero{
+  height:380px;
+  background:var(--sky-light) center/cover no-repeat;
+  margin-bottom:48px;
+}
+.blog-read-inner{max-width:720px;margin:0 auto}
+.blog-read-inner h1{
+  font-family:var(--font-display);
+  font-size:clamp(1.8rem,3.5vw,2.8rem);
+  font-weight:700;color:var(--brown);
+  line-height:1.15;margin-bottom:16px;
+}
+.blog-read-meta{
+  font-size:0.72rem;color:var(--muted);
+  letter-spacing:0.08em;text-transform:uppercase;
+  margin-bottom:32px;padding-bottom:32px;
+  border-bottom:1px solid var(--parchment-dark);
+}
+.blog-read-body{font-size:0.95rem;line-height:1.9;color:var(--ink)}
+.blog-read-body p{margin-bottom:20px}
+
+/* ── CALENDLY ── */
+.calendly-section{
+  background:var(--parchment);
+  padding:80px 80px;
+  text-align:center;
+}
+.calendly-section h2{
+  font-family:var(--font-display);
+  font-size:clamp(1.6rem,3vw,2.4rem);
+  font-weight:600;color:var(--brown);
+  margin-bottom:10px;
+}
+.calendly-section p{
+  font-size:0.92rem;color:var(--muted);
+  margin-bottom:36px;max-width:500px;
+  margin-left:auto;margin-right:auto;
+}
+.calendly-inline-widget{
+  min-width:320px;height:700px;
+  border:1px solid var(--border, #EDE3D0);
+  max-width:900px;margin:0 auto;
+}
+@media(max-width:900px){
+  .calendly-section{padding:60px 24px}
+  .calendly-inline-widget{height:800px}
+}
+
+/* ── SOCIAL ICONS ── */
+.social-links{display:flex;flex-direction:row;flex-wrap:wrap;gap:10px;margin-top:20px}
+.social-link{
+  display:flex;align-items:center;gap:8px;
+  color:rgba(255,255,255,0.8);
+  text-decoration:none;
+  font-size:0.78rem;
+  transition:color 0.2s;
+}
+.social-link:hover{color:var(--gold-light)}
+.social-icon{
+  width:40px;height:40px;
+  border:1px solid rgba(255,255,255,0.25);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:border-color 0.2s,background 0.2s;
+}
+.social-link:hover .social-icon{border-color:var(--gold);background:rgba(196,151,63,0.2)}
+.social-icon svg{width:18px;height:18px;fill:currentColor}
+.social-label{display:none}
+
+/* ── PHOTO CAPTION ── */
+.photo-location{
+  font-size:0.62rem;
+  color:var(--muted);
+  letter-spacing:0.06em;
+  margin-top:6px;
+  font-style:italic;
+}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  nav{padding:0 20px}
+  .nav-links li:not(:last-child){display:none}
+  .hero-content{padding:60px 24px}
+  .diagonal-band{padding:60px 24px;clip-path:none}
+  .band-inner{grid-template-columns:1fr;gap:24px}
+  .what-section,.why-section,.blog-section,.blog-read-view{padding:60px 24px}
+  .what-intro-col{grid-template-columns:1fr;gap:32px}
+  .what-grid{grid-template-columns:1fr}
+  .contact-strip{grid-template-columns:1fr;gap:40px;padding:60px 24px}
+  .page-hero-sub-content{padding:40px 24px}
+  .why-reasons{grid-template-columns:1fr}
+  .blog-grid{grid-template-columns:1fr}
+  .blog-top{flex-direction:column;gap:20px;align-items:flex-start}
+  footer{flex-direction:column;text-align:center;padding:32px 24px}
+  .form-row-2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand" onclick="showPage('home')">
+    <div class="nav-monogram">GC</div>
+    <div class="nav-name">
+      Gabriela Cirby
+      <small>55+ Community Specialist</small>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><button onclick="showPage('home')">Home</button></li>
+    <li><button onclick="showPage('why')">Why 55+</button></li>
+    <li><button onclick="showPage('blog')">Insights</button></li>
+    <li><a href="https://calendly.com/connect-cirbygroup/website" target="_blank" rel="noopener" style="font-size:0.78rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--brown);text-decoration:none;padding:8px 14px;font-family:var(--font-body)">Book a Call</a></li>
+    <li><a href="#contact-strip" onclick="showPage('home')" class="nav-cta">Get in Touch</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════ HOME PAGE ══════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span></span>Your Guide to 55+ Living</p>
+      <h1 class="hero-h1">Find the community<br/>you were <em>made for</em>.</h1>
+      <p class="hero-sub">Gabriela Cirby specializes in helping active adults find their perfect 55+ community — combining local expertise, genuine care, and a process that makes it feel simple.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <button class="btn-gold" onclick="document.getElementById('contact-strip').scrollIntoView({behavior:'smooth'})">Let's Talk</button>
+        <button class="btn-outline-white" onclick="showPage('why')">Why 55+?</button>
+        <a href="https://calendly.com/connect-cirbygroup/website" target="_blank" rel="noopener" class="btn-outline-white">Book a Call</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- SINCE 2011 BAND -->
+  <div class="diagonal-band">
+    <div style="text-align:center;padding:20px 0">
+      <p style="font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin-bottom:12px">Trusted Experience</p>
+      <p style="font-family:var(--font-display);font-size:clamp(1.6rem,3.5vw,2.6rem);font-weight:600;font-style:italic;color:var(--white);line-height:1.2">Helping California families find their perfect<br/>55+ community since <span style="color:var(--gold-light)">2011</span>.</p>
+    </div>
+  </div>
+
+  <!-- WHAT IS 55+ -->
+  <section class="what-section">
+    <div class="section-header">
+      <p class="section-eyebrow">Understanding 55+ Living</p>
+      <h2 class="section-title">What is a <em>55+ community</em>?</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="what-intro-col">
+      <div>
+        <p>A 55+ community — also known as an active adult community — is a residential development legally designated under the Housing for Older Persons Act (HOPA) for residents aged 55 and older. At least 80% of occupied homes must have one resident who meets that age requirement.</p>
+        <p>But the number is the least interesting thing about them. These communities are designed around a specific way of living: less maintenance, more connection, more time for the things that actually matter to you — whether that's golf, travel, gardening, creative hobbies, or simply a peaceful place to call home.</p>
+        <p>From cozy townhome villages to resort-style master-planned developments with every imaginable amenity, 55+ communities vary enormously — and finding the right fit takes local knowledge and honest guidance. That's exactly what Gabriela provides.</p>
+        <br/>
+        <button class="btn-sky" onclick="showPage('why')">Discover if it's right for you →</button>
+      </div>
+      <div>
+        <div class="what-photo" style="background:url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&q=80') center/cover no-repeat" role="img" aria-label="55+ active adult community in Palm Desert, Southern California">
+          <div class="what-photo-caption">Resort-style 55+ community, Palm Desert, CA</div>
+        </div>
+        <p class="photo-location">📍 Coachella Valley, Southern California</p>
+      </div>
+    </div>
+
+    <div class="what-grid">
+      <div class="what-card">
+        <div style="height:160px;background:url('https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=600&q=80') center/cover no-repeat;margin:-44px -40px 20px;position:relative">
+          <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(92,61,30,0.55);padding:6px 12px">
+            <span style="font-size:0.58rem;color:rgba(255,255,255,0.85);letter-spacing:0.08em;font-style:italic">📍 Laguna Woods Village, Orange County, CA</span>
+          </div>
+        </div>
+        <div class="what-card-icon">🏡</div>
+        <h3>Low-Maintenance Homes</h3>
+        <p>Most 55+ communities handle exterior upkeep, landscaping, and common area maintenance through HOA fees — freeing you from weekend chores and letting you focus on living.</p>
+      </div>
+      <div class="what-card">
+        <div style="height:160px;background:url('https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=600&q=80') center/cover no-repeat;margin:-44px -40px 20px;position:relative">
+          <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(92,61,30,0.55);padding:6px 12px">
+            <span style="font-size:0.58rem;color:rgba(255,255,255,0.85);letter-spacing:0.08em;font-style:italic">📍 Sun City Palm Desert, Coachella Valley, CA</span>
+          </div>
+        </div>
+        <div class="what-card-icon">🤝</div>
+        <h3>Built-In Community</h3>
+        <p>Neighbors who are at a similar stage of life, organized social events, clubs, classes, and shared spaces designed for real connection — not just proximity.</p>
+      </div>
+      <div class="what-card">
+        <div style="height:160px;background:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80') center/cover no-repeat;margin:-44px -40px 20px;position:relative">
+          <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(92,61,30,0.55);padding:6px 12px">
+            <span style="font-size:0.58rem;color:rgba(255,255,255,0.85);letter-spacing:0.08em;font-style:italic">📍 Rancho Mirage, Coachella Valley, CA</span>
+          </div>
+        </div>
+        <div class="what-card-icon">🏊</div>
+        <h3>Resort-Style Amenities</h3>
+        <p>Pools, fitness centers, pickleball courts, walking trails, clubhouses, art studios — the level of amenity varies by community, and Gabriela will match you to one that fits your lifestyle.</p>
+      </div>
+      <div class="what-card">
+        <div style="height:160px;background:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80') center/cover no-repeat;margin:-44px -40px 20px;position:relative">
+          <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(92,61,30,0.55);padding:6px 12px">
+            <span style="font-size:0.58rem;color:rgba(255,255,255,0.85);letter-spacing:0.08em;font-style:italic">📍 Heritage Palms, Indio, CA</span>
+          </div>
+        </div>
+        <div class="what-card-icon">📋</div>
+        <h3>Legal Protections & HOA Structure</h3>
+        <p>55+ communities operate under HOPA guidelines. HOA rules, fees, and what they cover vary widely — understanding these details before you buy is critical, and it's where an experienced guide makes all the difference.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDLY -->
+  <section class="calendly-section">
+    <p class="section-eyebrow">Schedule a Consultation</p>
+    <h2>Book a Free Call with Gabriela</h2>
+    <p>Ready to explore your options? Pick a time that works for you and Gabriela will personally walk you through the best 55+ communities for your lifestyle and budget.</p>
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"/>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/connect-cirbygroup/website?hide_landing_page_details=1&hide_gdpr_banner=1&background_color=F6F0E6&text_color=2C2118&primary_color=6BA3C8"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
+
+  <!-- CONTACT STRIP -->
+  <section class="contact-strip" id="contact-strip">
+    <div class="strip-text">
+      <h2>Ready to start the conversation?</h2>
+      <p>Whether you're just beginning to explore or you have a specific community in mind, Gabriela is here to help you find your fit — with no pressure, and no sales tactics. Just honest guidance from someone who genuinely knows these communities inside and out.</p>
+      <br/>
+      <p style="color:rgba(255,255,255,0.75);font-size:0.9rem;margin-bottom:4px">📞 <a href="tel:6193795544" style="color:rgba(255,255,255,0.75);text-decoration:none">619-379-5544</a></p>
+      <p style="color:rgba(255,255,255,0.75);font-size:0.9rem">✉️ <a href="mailto:gabrielacirbyhomes@gmail.com" style="color:rgba(255,255,255,0.75);text-decoration:none">gabrielacirbyhomes@gmail.com</a></p>
+      <div class="social-links">
+        <a class="social-link" href="https://www.instagram.com/gabycirby" target="_blank" rel="noopener" aria-label="Gabriela Cirby on Instagram">
+          <span class="social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></span>
+        </a>
+        <a class="social-link" href="https://www.facebook.com/CirbyGroup" target="_blank" rel="noopener" aria-label="Gabriela Cirby on Facebook">
+          <span class="social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/gabycirby/" target="_blank" rel="noopener" aria-label="Gabriela Cirby on LinkedIn">
+          <span class="social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+        </a>
+        <a class="social-link" href="https://www.youtube.com/@CirbyGroup" target="_blank" rel="noopener" aria-label="Gabriela Cirby on YouTube">
+          <span class="social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg></span>
+        </a>
+        <a class="social-link" href="https://www.tiktok.com/@gabycirby" target="_blank" rel="noopener" aria-label="Gabriela Cirby on TikTok">
+          <span class="social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <form class="contact-form-mini" id="contactForm" onsubmit="submitContact(event)">
+        <div class="form-row-2">
+          <div class="form-field"><input type="text" placeholder="Your name" required/></div>
+          <div class="form-field"><input type="email" placeholder="Email address" required/></div>
+        </div>
+        <div class="form-field"><input type="tel" placeholder="Phone number (optional)"/></div>
+        <div class="form-field">
+          <select>
+            <option value="">How can I help you?</option>
+            <option>I'm looking to buy in a 55+ community</option>
+            <option>I want to learn more about 55+ options</option>
+            <option>I have a specific community in mind</option>
+            <option>I'm helping a family member find a home</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-field"><textarea placeholder="Tell me a little about what you're looking for…"></textarea></div>
+        <button type="submit" class="btn-gold" style="align-self:flex-start">Send Message</button>
+        <div class="form-success" id="contactSuccess">
+          ✓ &nbsp; Thank you — I'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">Gabriela Cirby Real Estate</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('why')">Why 55+</button>
+      <button onclick="showPage('blog')">Insights</button>
+      <button onclick="showPage('home');setTimeout(()=>document.getElementById('contact-strip').scrollIntoView({behavior:'smooth'}),100)">Contact</button>
+    </div>
+    <small>© 2025 Gabriela Cirby · California</small>
+  </footer>
+  <div style="background:var(--brown);text-align:center;padding:10px 24px">
+    <small style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:0.04em">Agent License #01905458</small>
+  </div>
+
+</div><!-- /page-home -->
+
+<!-- ══════════ WHY PAGE ══════════ -->
+<div id="page-why" class="page">
+
+  <div class="page-hero-sub" style="background:none">
+    <div class="page-hero-sub-bg" style="background:
+      linear-gradient(to top,rgba(92,61,30,0.88) 0%,rgba(92,61,30,0.25) 100%),
+      url('https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?w=1400&q=80') center/cover">
+    </div>
+    <div class="page-hero-sub-content">
+      <h1>Why choose a 55+ community?</h1>
+      <p>The honest case for a new chapter — what these communities offer, who they're really for, and how to know if it's your right move.</p>
+    </div>
+  </div>
+
+  <section class="why-section">
+    <div style="max-width:1100px">
+      <div style="margin-bottom:56px">
+        <p class="section-eyebrow">Six Reasons People Choose 55+</p>
+        <h2 class="section-title">It's not about <em>slowing down</em>.</h2>
+        <div class="section-rule"></div>
+        <p style="margin-top:20px;max-width:640px;font-size:0.95rem;color:var(--muted);line-height:1.85">The most common thing Gabriela hears from clients after they've moved into a 55+ community: "I wish I'd done this sooner." Here's why they say it.</p>
+      </div>
+      <div class="why-reasons">
+        <div class="why-card">
+          <div class="why-number">1</div>
+          <h3>More time. Immediately.</h3>
+          <p>When the HOA covers landscaping, exterior maintenance, and common areas, the weekend opens up in ways that surprise people. Suddenly there's time for the things you said you'd do "someday."</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">2</div>
+          <h3>Neighbors who get it.</h3>
+          <p>Living among people at a similar stage of life means shared interests, natural conversation, and genuine friendships that form faster than in mixed-age neighborhoods. Loneliness — a real health concern — diminishes significantly in active adult communities.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">3</div>
+          <h3>Amenities at your front door.</h3>
+          <p>Pools, fitness centers, clubs, classes, pickleball courts, community gardens, art studios. These aren't extras — they're the point. For many, the activity calendar alone changes their daily life in profound ways.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">4</div>
+          <h3>Security and peace of mind.</h3>
+          <p>Many 55+ communities are gated, with active security, neighborhood watch programs, and a level of shared investment in the community's wellbeing that goes beyond what most standard neighborhoods offer.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">5</div>
+          <h3>Homes designed for how you live now.</h3>
+          <p>Single-story layouts, wider doorways, no-step entries, accessible bathrooms, and thoughtful floor plans are built-in — not retrofitted. The home works for you, not the other way around.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">6</div>
+          <h3>A sound financial decision.</h3>
+          <p>55+ communities tend to hold their value well. Residents are invested in keeping the community attractive. HOA funds maintain property values. And the predictability of what your home demands — financially and physically — reduces stress significantly in retirement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="why-cta-block">
+    <h2>Let's find yours.</h2>
+    <p>Gabriela has toured communities throughout California — and she'll tell you honestly which ones are worth your time and which ones aren't.</p>
+    <button class="btn-gold" onclick="showPage('home');setTimeout(()=>document.getElementById('contact-strip').scrollIntoView({behavior:'smooth'}),100)">Start a Conversation</button>
+  </div>
+
+  <footer>
+    <div class="footer-brand">Gabriela Cirby Real Estate</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('why')">Why 55+</button>
+      <button onclick="showPage('blog')">Insights</button>
+      <button onclick="showPage('home');setTimeout(()=>document.getElementById('contact-strip').scrollIntoView({behavior:'smooth'}),100)">Contact</button>
+    </div>
+    <small>© 2025 Gabriela Cirby · California</small>
+  </footer>
+  <div style="background:var(--brown);text-align:center;padding:10px 24px">
+    <small style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:0.04em">Agent License #01905458</small>
+  </div>
+
+</div><!-- /page-why -->
+
+<!-- ══════════ BLOG PAGE ══════════ -->
+<div id="page-blog" class="page">
+
+  <div class="page-hero-sub">
+    <div class="page-hero-sub-bg" style="background:
+      linear-gradient(to top,rgba(44,33,24,0.9) 0%,rgba(44,33,24,0.3) 100%),
+      url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=80') center/cover">
+    </div>
+    <div class="page-hero-sub-content">
+      <h1>Insights & Local Knowledge</h1>
+      <p>Honest guidance, community spotlights, and everything you need to make a confident decision about 55+ living.</p>
+    </div>
+  </div>
+
+  <!-- BLOG LIST -->
+  <div id="blog-list-view">
+    <section class="blog-section">
+      <div class="blog-top">
+        <div>
+          <p class="section-eyebrow">From the Blog</p>
+          <h2 class="section-title" style="font-size:2rem">All <em>Articles</em></h2>
+          <div class="section-rule"></div>
+        </div>
+      </div>
+      <div class="blog-grid" id="blogGrid">
+        <!-- injected by JS -->
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-brand">Gabriela Cirby Real Estate</div>
+      <div class="footer-links">
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('why')">Why 55+</button>
+        <button onclick="showPage('blog')">Insights</button>
+        <button onclick="showPage('home');setTimeout(()=>document.getElementById('contact-strip').scrollIntoView({behavior:'smooth'}),100)">Contact</button>
+      </div>
+      <small>© 2025 Gabriela Cirby · California</small>
+    </footer>
+    <div style="background:var(--brown);text-align:center;padding:10px 24px">
+      <small style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:0.04em">Agent License #01905458</small>
+    </div>
+  </div>
+
+  <!-- BLOG READ VIEW -->
+  <div class="blog-read-view" id="blogReadView">
+    <div style="max-width:800px;margin:0 auto">
+      <button class="blog-read-back" onclick="closeBlogPost()">← Back to all articles</button>
+      <div class="blog-read-hero" id="blogReadHero"></div>
+      <div class="blog-read-inner">
+        <p class="blog-read-meta" id="blogReadMeta"></p>
+        <h1 id="blogReadTitle"></h1>
+        <div class="blog-read-meta" id="blogReadMeta2"></div>
+        <div class="blog-read-body" id="blogReadBody"></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /page-blog -->
+
+<script>
+// ── PAGE ROUTING ──
+function showPage(name){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+name).classList.add('active');
+  window.scrollTo(0,0);
+  if(name==='blog'){
+    document.getElementById('blog-list-view').style.display='block';
+    document.getElementById('blogReadView').classList.remove('show');
+    renderBlogs();
+  }
+}
+
+// ── CONTACT FORM ──
+function submitContact(e){
+  e.preventDefault();
+  document.getElementById('contactSuccess').classList.add('show');
+  e.target.querySelector('button[type=submit]').disabled=true;
+}
+
+// ── BLOG POSTS — add new posts to the top of this array ──
+const SEED_POSTS=[
+  {
+    id:'seed1',
+    title:'What to Look For in a 55+ Community (Beyond the Brochure)',
+    category:'Buyer\'s Guide',
+    date:'June 15, 2025',
+    excerpt:'The amenities photos are gorgeous. But what\'s the actual day-to-day like? Here\'s what Gabriela looks at that the brochure won\'t tell you.',
+    body:`When clients first reach out, they usually come with a list of communities they found online. And honestly, the marketing for most of them is excellent — gleaming pools, smiling residents, beautifully staged homes.
+
+But after helping hundreds of families find the right fit, I've learned that the things that make a community truly great almost never show up in a brochure.
+
+Here's what I actually look at when I evaluate a 55+ community on your behalf.
+
+The HOA financials. Before anything else, I request the HOA reserve study and recent meeting minutes. A community that looks beautiful today could be facing deferred maintenance, special assessments, or poor financial management. These documents reveal things no tour will show you.
+
+The social calendar. A robust calendar of events isn't just nice to have — it's a window into the community's culture. Is it active and diverse? Do residents actually show up? I've visited communities where the calendar looks full but the clubhouse is empty.
+
+Turnover and resale history. A community where homes sell quickly and prices hold steady is a community where residents are happy. Stale listings are a signal worth investigating.
+
+The pulse of current residents. I always talk to people who actually live there — not the sales staff. I ask what they love, what surprised them, and what they'd tell a friend who was considering moving in.
+
+If you're starting your search, I'd love to walk you through what I find. Reach out and let's have a conversation.`,
+    image:'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80'
+  },
+  {
+    id:'seed2',
+    title:'The 5 Questions You Should Ask Before Buying in a 55+ Community',
+    category:'Tips & Advice',
+    date:'May 3, 2025',
+    excerpt:'Most buyers walk away from a community tour with nice feelings and no real information. These five questions change that.',
+    body:`A community tour is designed to make you feel good. The sales staff is warm, the amenities are sparkling, and the model home is immaculate. That's their job.
+
+Your job is to ask the questions that pierce through the staging and get you to the truth.
+
+Here are the five I recommend every buyer ask — and why each one matters.
+
+1. What is the monthly HOA fee, and what exactly does it cover?
+This seems obvious, but the answer varies enormously from community to community. Some HOAs include water, trash, cable, and exterior insurance. Others cover almost nothing beyond landscaping. Know precisely what you're paying for.
+
+2. What are the reserves, and when was the last reserve study completed?
+Underfunded reserves mean special assessments — unexpected bills that can run into the thousands. A well-funded reserve fund is a sign of responsible management.
+
+3. What are the rules around guests and family members under 55?
+Most communities allow younger residents under certain conditions, but the rules vary. If you have adult children or grandchildren who visit regularly, you need to understand the policy before you buy.
+
+4. How active is the social life, really?
+Ask to see the last three months of the activity calendar. Ask how many residents typically attend events. Better yet, come on a weekday and see for yourself.
+
+5. What's the process if I want to rent out my home?
+Many 55+ communities restrict rentals entirely, or allow them only under specific conditions. If you're considering this as an investment property, or if you travel extensively, this question is essential.
+
+Ready to start touring communities? I'll be with you every step of the way — and I'll make sure we ask the right questions.`,
+    image:'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80'
+  },
+  {
+    id:'seed3',
+    title:'Why California is One of the Best Places to Retire in the Country',
+    category:'Market Insights',
+    date:'March 20, 2025',
+    excerpt:'Climate, community, coast, and quality of life — there\'s a reason people move to California from all over the country. Here\'s the honest picture.',
+    body:`I may be biased — I've spent my career here — but California consistently earns its reputation as one of the best places in the country to retire.
+
+Here's what actually drives that ranking.
+
+The climate is genuinely exceptional. From the mild coastal air of the Central Coast to the warm, sun-drenched valleys of Southern California and the crisp mountain communities of the Sierra foothills, California offers a climate for every preference — with more than 280 sunny days per year across most of the state.
+
+The 55+ community landscape is the most diverse in the nation. Whether you're drawn to golf-course resort communities in the Coachella Valley, peaceful wine-country villages in Temecula, or established active adult neighborhoods throughout the Bay Area and Sacramento region, California has options at every price point and lifestyle.
+
+Healthcare infrastructure is world-class statewide. From UCLA and UCSF to Cedars-Sinai and Stanford Health Care, California is home to some of the most respected medical institutions in the world — a factor that matters more than people realize when choosing where to retire.
+
+The natural beauty is unmatched. Mountains, desert, coast, and valley — often within an hour's drive of each other. The ability to hike in the morning and walk a beach in the afternoon is a quality of life that's simply hard to find anywhere else.
+
+If you're considering a move to California and want an honest picture of which communities might fit your life, I'd love to talk.`,
+    image:'https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800&q=80'
+  }
+];
+
+function renderBlogs(){
+  const grid=document.getElementById('blogGrid');
+  if(!SEED_POSTS.length){
+    grid.innerHTML=`<div class="blog-empty"><p>No posts yet.</p></div>`;
+    return;
+  }
+  grid.innerHTML=SEED_POSTS.map(p=>`
+    <div class="blog-card" onclick="openPost('${p.id}')">
+      <div class="blog-thumb" style="background-image:url('${p.image||''}');background-color:var(--sky-light)">
+        <span class="blog-tag">${p.category||'Article'}</span>
+      </div>
+      <div class="blog-body">
+        <div class="blog-date">${p.date}</div>
+        <h3>${p.title}</h3>
+        <p class="blog-excerpt">${p.excerpt||''}</p>
+        <button class="blog-read" onclick="event.stopPropagation();openPost('${p.id}')">Read article <span>→</span></button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openPost(id){
+  const post=SEED_POSTS.find(p=>p.id===id);
+  if(!post)return;
+  document.getElementById('blogReadHero').style.backgroundImage=post.image?`url('${post.image}')`:'';
+  document.getElementById('blogReadTitle').textContent=post.title;
+  document.getElementById('blogReadMeta').textContent=`${post.category} · ${post.date}`;
+  document.getElementById('blogReadMeta2').textContent='';
+  const bodyEl=document.getElementById('blogReadBody');
+  bodyEl.innerHTML=post.body.split(/\n\n+/).map(para=>`<p>${para.trim()}</p>`).join('');
+  document.getElementById('blog-list-view').style.display='none';
+  document.getElementById('blogReadView').classList.add('show');
+  window.scrollTo(0,0);
+}
+
+function closeBlogPost(){
+  document.getElementById('blogReadView').classList.remove('show');
+  document.getElementById('blog-list-view').style.display='block';
+  window.scrollTo(0,0);
+}
+
+// Init
+renderBlogs();
+</script>
+</body>
+</html>
